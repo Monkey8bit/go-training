@@ -1,0 +1,1 @@
+SELECT DISTINCT u.id, u.name from users u JOIN orders o ON o.user_id = u.id ORDER BY u.name;
